@@ -1,11 +1,11 @@
-import { createStore } from 'redux';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import { configureStore } from '@reduxjs/toolkit';
 
-import { rootReducer } from './reducer';
+import { tasksReducer } from './tasksSlice';
+import { filtersReducer } from './filtersSlice';
 
-// Початкове значення стану Redux для кореневого редюсера,
-// якщо не передати параметр preloadedState.
-
-const enhancer = composeWithDevTools();
-
-export const store = createStore(rootReducer, enhancer);
+export const store = configureStore({
+  reducer: {
+    tasks: tasksReducer,
+    filters: filtersReducer,
+  },
+});
