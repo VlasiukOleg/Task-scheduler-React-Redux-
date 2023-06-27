@@ -23,7 +23,7 @@ const tasksSlice = createSlice({
     [fetchTasks.fulfilled](state, action) {
       state.isLoading = false;
       state.error = null;
-      state.items.push(action.payload);
+      state.items = action.payload;
     },
     [fetchTasks.rejected]: handleRejected,
 
@@ -31,7 +31,7 @@ const tasksSlice = createSlice({
     [addTask.fulfilled](state, action) {
       state.isLoading = false;
       state.error = null;
-      state.items = action.payload;
+      state.items.push(action.payload);
     },
     [addTask.rejected]: handleRejected,
 
