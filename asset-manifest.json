@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Task-scheduler-React-Redux-/static/css/main.7f4cfe3c.css",
-    "main.js": "/Task-scheduler-React-Redux-/static/js/main.475e9776.js",
+    "main.js": "/Task-scheduler-React-Redux-/static/js/main.f3e5ac73.js",
     "static/js/266.08d7c2fa.chunk.js": "/Task-scheduler-React-Redux-/static/js/266.08d7c2fa.chunk.js",
     "static/css/395.49339f3d.chunk.css": "/Task-scheduler-React-Redux-/static/css/395.49339f3d.chunk.css",
     "static/js/395.2fb5004f.chunk.js": "/Task-scheduler-React-Redux-/static/js/395.2fb5004f.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/977.a56674a0.chunk.js": "/Task-scheduler-React-Redux-/static/js/977.a56674a0.chunk.js",
     "index.html": "/Task-scheduler-React-Redux-/index.html",
     "main.7f4cfe3c.css.map": "/Task-scheduler-React-Redux-/static/css/main.7f4cfe3c.css.map",
-    "main.475e9776.js.map": "/Task-scheduler-React-Redux-/static/js/main.475e9776.js.map",
+    "main.f3e5ac73.js.map": "/Task-scheduler-React-Redux-/static/js/main.f3e5ac73.js.map",
     "266.08d7c2fa.chunk.js.map": "/Task-scheduler-React-Redux-/static/js/266.08d7c2fa.chunk.js.map",
     "395.49339f3d.chunk.css.map": "/Task-scheduler-React-Redux-/static/css/395.49339f3d.chunk.css.map",
     "395.2fb5004f.chunk.js.map": "/Task-scheduler-React-Redux-/static/js/395.2fb5004f.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.7f4cfe3c.css",
-    "static/js/main.475e9776.js"
+    "static/js/main.f3e5ac73.js"
   ]
 }
