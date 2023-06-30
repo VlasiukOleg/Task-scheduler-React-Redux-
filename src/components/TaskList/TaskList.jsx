@@ -2,10 +2,10 @@ import { Task } from 'components/Task/Task';
 import css from './TaskList.module.css';
 import { useSelector } from 'react-redux';
 
-import { statusFilters } from 'redux/constans';
+import { statusFilters } from 'redux/tasks/constans';
 
-import { getTasks } from 'redux/selectors';
-import { getStatusFilter } from 'redux/selectors';
+import { getTasks } from 'redux/tasks/selectors';
+import { getStatusFilter } from 'redux/tasks/selectors';
 
 const getVisibleTasks = (tasks, statusFilter) => {
   switch (statusFilter) {

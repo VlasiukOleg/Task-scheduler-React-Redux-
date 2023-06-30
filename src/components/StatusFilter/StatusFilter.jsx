@@ -3,10 +3,10 @@ import css from './StatusFilter.module.css';
 
 import { useSelector, useDispatch } from 'react-redux';
 
-import { statusFilters } from 'redux/constans';
-import { getStatusFilter } from 'redux/selectors';
+import { statusFilters } from 'redux/tasks/constans';
+import { getStatusFilter } from 'redux/tasks/selectors';
 
-import { setStatusFilter } from 'redux/filtersSlice';
+import { setStatusFilter } from 'redux/tasks/filtersSlice';
 
 export const StatusFilter = () => {
   const dispatch = useDispatch();
