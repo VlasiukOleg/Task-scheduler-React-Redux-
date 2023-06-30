@@ -2,7 +2,6 @@ import { Layout } from 'components/Layout/Layout';
 
 import { lazy } from 'react';
 
-import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 
 const HomePage = lazy(() => import('../pages/Home'));
